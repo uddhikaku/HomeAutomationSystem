@@ -9,7 +9,7 @@ You can open "HomeAutomation.pdsprj" using Proteus Software
 <img src="https://github.com/uddhikaku/HomeAutomationSystem/blob/main/Circuit%20Diagram%202%20.jpg?raw=true" width="50%" />
 
 <a href = "https://youtu.be/iCiXsfW_q14" ></a>
-
+<a href = "https://youtu.be/iCiXsfW_q14" ><img src="https://github.com/uddhikaku/HomeAutomationSystem/blob/main/Yt.jpg?raw=true" width="50%" /></a>
 
 ### Arduino Code 
 
