@@ -20,7 +20,6 @@ int FAN3 = 11;
 int LED1 = 10;
 int LED2 = 9;
 int LED3 = 8;
-
 void setup() 
 {
   Serial.begin(9600);
@@ -31,14 +30,12 @@ void setup()
   pinMode(FAN2,OUTPUT);
   pinMode(FAN3,OUTPUT);
 }
-
 char rx_byte = 0;
 void loop() 
 {
   if (Serial.available() > 0)
   {
     rx_byte = Serial.read();
-    
     if (rx_byte == 'a') 
     {
       Serial.print("LED 01 is ON \n");
@@ -102,9 +99,7 @@ void loop()
     else
     {
       Serial.println("ALL OFF ");
-    }
-  }
-}
+    }}}
 
 
 
